@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body text="gold">
+    <form name="calculator">
+        <input type="textfield" name="ans" id="disply" value=""><br>
+
+        <input type="reset" class="but" id="clear" value="C">
+        <input type="button" class="but" value="()" id="operatingbut" onClick="document.calculator.ans.value+='()'">
+        <input type="button" class="but" value="%" id="operatingbut" onClick="document.calculator.ans.value+='%'">
+        <input type="button" class="but" value="/" id="operatingbut" onClick="document.calculator.ans.value+='/'">
+
+        <br>
+
+
+
+        <input type="button" class="but" value="7" onClick="document.calculator.ans.value+='7'">
+        <input type="button" class="but" value="8" onClick="document.calculator.ans.value+='8'">
+        <input type="button" class="but" value="9" onClick="document.calculator.ans.value+='9'">
+        <input type="button" class="but" value="*" id="operatingbut" onClick="document.calculator.ans.value+='*'">
+        <br>
+
+
+
+        <input type="button" class="but" value="4" onClick="document.calculator.ans.value+='4'">
+        <input type="button" class="but" value="5" onClick="document.calculator.ans.value+='5'">
+        <input type="button" class="but" value="6" onClick="document.calculator.ans.value+='6'">
+        <input type="button" class="but" value="-" id="operatingbut" onClick="document.calculator.ans.value+='-'">
+
+        <br>
+
+        <input type="button" class="but" value="1" onClick="document.calculator.ans.value+='1'">
+        <input type="button" class="but" value="2" onClick="document.calculator.ans.value+='2'">
+        <input type="button" class="but" value="3" onClick="document.calculator.ans.value+='3'">
+        <input type="button" class="but" value="+" id="operatingbut" onClick="document.calculator.ans.value+='+'">
+
+        <br>
+
+
+
+        <input type="button" class="but" id="zero" value="0" onClick="document.calculator.ans.value+='0'">
+        <input type="button" value="=" id="operatingbut1" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+        <input type="button" class="but" id="clear" value="AC" id="operatingbut" onClick="document.calculator.ans.value=document.calculator.ans.value.substring(0,document.calculator.ans.value.length*1-1)">
+    </form>
+</body>
+
+</html>

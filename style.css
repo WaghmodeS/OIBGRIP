@@ -1,0 +1,93 @@
+/* background of page */
+
+body {
+    background-image: url('../css/img/bg.jpg');
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* container */
+
+form {
+    width: 300px;
+    border-radius: 10px;
+    padding: 50px;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+    text-align: justify;
+    box-shadow: 10px 10px gray;
+    margin-top: 207px;
+    margin-left: 600px;
+    background-color: black;
+}
+
+
+/* input things */
+
+input {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+    transform-box: view-box;
+    background: transparent;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+}
+
+
+/* Ans display */
+
+#disply {
+    width: 261px;
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px rgb(39, 106, 231);
+    background-color: rgb(12, 240, 248);
+    color: black;
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+}
+
+
+/* buttonns */
+
+.but {
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 3px rgb(39, 106, 231);
+}
+
+
+/* Hover effect to buttons */
+
+.but:hover {
+    background-color: rgb(239, 8, 247);
+}
+
+
+/* operartor buttons */
+
+#operatingbut1 {
+    width: 121px;
+    height: 50px;
+    box-shadow: 3px 3px rgb(39, 106, 231);
+    background-color: rgb(52, 240, 52);
+}
+
+
+/* operator equal button */
+
+#operatingbut {
+    color: rgb(52, 240, 52);
+}
+
+
+/* clean button */
+
+#clear {
+    color: red;
+}
